@@ -17,8 +17,8 @@ cors = CORS(app, resources={
     }
 })
 
-client = MongoClient("mongodb://localhost:27017/")
-db = client['inter_iit']
+client = MongoClient("mongodb+srv://brajesh:1234@cluster0.uhrit.mongodb.net/test?retryWrites=true&w=majority")
+db = client['test']
 coll = db['test']
 
 
