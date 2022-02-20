@@ -6,7 +6,7 @@ from flask_cors import CORS
 
 client = MongoClient()
 
-api_key = "AIzaSyDTyV_EcLNzOgpnF8rkEXEeQJW9EdpoeAw"
+api_key = "AIzaSyAm2QfYBhP7iGuYdVpdJS21l_Mt00UQRt4"
 youtube = build('youtube', 'v3', developerKey=api_key)
 app = Flask(__name__)
 
